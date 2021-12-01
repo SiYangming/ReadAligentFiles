@@ -25,7 +25,7 @@ annotation file: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13912
 source("ReadRawArrayFiles.R")
 ReadAligentFile(input = "GSE40289/GSE40289_RAW/",
                 output = "GSE40289/AligentFile/",
-                annotion_file = "GSE40289/GPL13912-20417.txt",B = 24)
+                annotation_file = "GSE40289/GPL13912-20417.txt",B = 24)
 
 
 colnames(dataout) <- gsub(".*(GSM.*?)_.*","\\1",colnames(dataout))
